@@ -17,7 +17,7 @@ void loop() {
 	{
 		char data = bluetooth.read(); //read and store BT data in char
 		Serial.println(data); // print on Serial monitor
-		if(data=='f') // check if data if ‘f’
+		if(data=='f') // check if data is ‘f’
 		{
 		Serial.println("forward");
 		digitalWrite(in1, HIGH);
